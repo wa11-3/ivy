@@ -1,0 +1,50 @@
+using UnityEngine;
+using RiptideNetworking;
+using RiptideNetworking.Utils;
+
+public class NetworkServer : MonoBehaviour
+{
+    private static NetworkServer _singleton;
+    public static NetworkServer Singleton
+    {
+        get => _singleton;
+        private set
+        {
+            if (_singleton == null)
+                _singleton = value;
+            else if (_singleton != value)
+            {
+                Debug.Log($"{nameof(NetworkServer)} instance already exists, destroying duplicate!");
+                Destroy(value);
+            }
+        }
+    }
+
+    public Server Server { get; private set; }
+
+    [SerializeField] private ushort port;
+    [SerializeField] private ushort maxClientCount;
+
+    private void Awake()
+    {
+        Singleton = this;
+    }
+
+    private void Start()
+    {
+        RiptideLogger.Initialize(Debug.Log, Debug.Log, Debug.LogWarning, Debug.LogError, false);
+
+        Server = new Server();
+        Server.Start(port, maxClientCount);
+    }
+
+    private void FixedUpdate()
+    {
+        Server.Tick();
+    }
+
+    private void OnApplicationQuit()
+    {
+        Server.Stop();
+    }
+}
