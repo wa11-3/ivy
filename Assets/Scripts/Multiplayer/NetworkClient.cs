@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using RiptideNetworking;
 using RiptideNetworking.Utils;
@@ -22,7 +23,7 @@ public class NetworkClient : MonoBehaviour
 
     public Client Client { get; private set; }
 
-    [SerializeField] private string ip;
+    private string ip;
     [SerializeField] private ushort port;
 
     private void Awake()
@@ -34,7 +35,8 @@ public class NetworkClient : MonoBehaviour
     {
         RiptideLogger.Initialize(Debug.Log, Debug.Log, Debug.LogWarning, Debug.LogError, false);
 
-        ip = Manager.GetRoomID(false) + Manager.onlineId;
+        ip = Manager.GetRoomID(false) + Manager.onlineId.ToString();
+
         Client = new Client();
         Client.Connect($"{ip}:{port}");
     }

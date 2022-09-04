@@ -17,6 +17,8 @@ public class Room : MonoBehaviour
     public Sprite[] characters;
     public Sprite[] modeLogos;
 
+    GameObject network;
+
     private void Awake()
     {
         modeText.text = Manager.onlineType;
@@ -30,12 +32,12 @@ public class Room : MonoBehaviour
                 players[0].SetActive(true);
                 players[0].GetComponentsInChildren<Image>()[1].sprite = characters[Manager.numberCharac];
                 Instantiate(networks[0]);
+                //network = Instantiate(networks[0], new Vector3(0,0,0), Quaternion.identity);
                 break;
 
             case "JOIN":
                 modeImage.sprite = modeLogos[1];
                 idText.text = $"ID: {Manager.onlineId}";
-                Manager.onlineId = roomId;
                 Instantiate(networks[1]);
                 break;
         }

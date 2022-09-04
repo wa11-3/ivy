@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Lobby : MonoBehaviour
 {
+
     public GameObject selectMode;
     public GameObject onlineMode;
 
@@ -17,7 +18,7 @@ public class Lobby : MonoBehaviour
     public TextMeshProUGUI modeText;
     public TextMeshProUGUI idText;
 
-    public TextMeshProUGUI idInput;
+    public TMP_InputField idInput;
 
     public Image characterImage;
     public Image modeImage;
@@ -54,12 +55,12 @@ public class Lobby : MonoBehaviour
         switch (Manager.modeType)
         {
             case "SURVIVAL":
-                Debug.Log($"{Manager.modeType}\n{Manager.onlineType}\n{Manager.onlineId}\n");
+                //Debug.Log($"{Manager.modeType}\n{Manager.onlineType}\n{Manager.onlineId}\n");
                 SceneManager.LoadScene("Game");
                 break;
 
             case "BRAWL":
-                Debug.Log($"{Manager.modeType}\n{Manager.onlineType}\n{Manager.onlineId}\n");
+                //Debug.Log($"{Manager.modeType}\n{Manager.onlineType}\n{Manager.onlineId}\n");
                 SceneManager.LoadScene("Room");
                 break;
 
