@@ -4,7 +4,7 @@ using RiptideNetworking.Utils;
 
 public enum ServerToClientId : ushort
 {
-    playerSpawned = 1,
+    confirmname = 1,
 }
 
 public enum ClientToServerId : ushort

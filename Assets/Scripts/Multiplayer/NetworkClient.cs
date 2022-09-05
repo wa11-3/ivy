@@ -39,6 +39,11 @@ public class NetworkClient : MonoBehaviour
 
         Client = new Client();
         Client.Connect($"{ip}:{port}");
+
+        Client.Connected += DidConnect;
+        Client.ConnectionFailed += FailedToConnect;
+        Client.ClientDisconnected += PlayerLeft;
+        Client.Disconnected += DidDisconnect;
     }
 
     private void FixedUpdate()
@@ -49,5 +54,25 @@ public class NetworkClient : MonoBehaviour
     private void OnApplicationQuit()
     {
         Client.Disconnect();
+    }
+
+    private void DidConnect(object sender, EventArgs e)
+    {
+        MessageClient.SendName();
+    }
+
+    private void FailedToConnect(object sender, EventArgs e)
+    {
+        //UIManager.Singleton.BackToMain();
+    }
+
+    private void PlayerLeft(object sender, ClientDisconnectedEventArgs e)
+    {
+        //Destroy(Player.list[e.Id].gameObject);
+    }
+
+    private void DidDisconnect(object sender, EventArgs e)
+    {
+        //UIManager.Singleton.BackToMain();
     }
 }
