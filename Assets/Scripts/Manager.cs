@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Text.RegularExpressions;
 
+public enum NetworkMessages : ushort
+{
+    name = 1,
+    confirmname = 2,
+    newname = 3
+}
+
 public class Manager : MonoBehaviour
 {
     public static Manager current;

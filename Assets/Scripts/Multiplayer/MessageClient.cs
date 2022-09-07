@@ -31,14 +31,14 @@ public class MessageClient : MonoBehaviour
     #region Send
     public static void SendName()
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)ClientToServerId.name);
+        Message message = Message.Create(MessageSendMode.reliable, (ushort)NetworkMessages.name);
         message.AddString(charNames[Manager.numberCharac]);
         NetworkClient.Singleton.Client.Send(message);
     }
     #endregion
 
     #region Recive
-    [MessageHandler((ushort)ServerToClientId.confirmname)]
+    [MessageHandler((ushort)NetworkMessages.confirmname)]
     public static void ConfirmName(ushort fromClientId, Message message)
     {
         bool confirmation = message.GetBool();
@@ -49,7 +49,7 @@ public class MessageClient : MonoBehaviour
         }
     }
 
-    [MessageHandler((ushort)ServerToClientId.newname)]
+    [MessageHandler((ushort)NetworkMessages.newname)]
     public static void NewName(ushort fromClientId, Message message)
     {
 
