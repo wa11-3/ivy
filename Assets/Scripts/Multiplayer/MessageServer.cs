@@ -25,14 +25,14 @@ public class MessageServer : MonoBehaviour
     #region Send
     public static void ConfirmName(ushort idClient, bool confirmation)
     {
-        Message message = Message.Create();
+        Message message = Message.Create(MessageSendMode.reliable, (ushort)ServerToClientId.confirmname);
         message.AddBool(confirmation);
         NetworkServer.Singleton.Server.Send(message, idClient);
     }
 
     public static void NewName()
     {
-        Message message = Message.Create();
+        Message message = Message.Create(MessageSendMode.reliable, (ushort)ServerToClientId.newname);
         message.AddStrings(Manager.list.Values.ToArray());
         NetworkServer.Singleton.Server.SendToAll(message);
     }
