@@ -9,8 +9,6 @@ public class MessageClient : MonoBehaviour
 
     public static GameObject infopanel;
 
-    private static string[] charNames = {"FeAd","FePe","MaAd","MaPe","Robot","Zombie"};
-
     private void Awake()
     {
         if (current != null && current != this)
@@ -31,28 +29,33 @@ public class MessageClient : MonoBehaviour
     #region Send
     public static void SendName()
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)ClientToServerId.name);
-        message.AddString(charNames[Manager.numberCharac]);
+        Message message = Message.Create(MessageSendMode.reliable, (ushort)NetworkMessages.name);
+        message.AddString(Manager.charNames[Manager.numberCharac]);
         NetworkClient.Singleton.Client.Send(message);
     }
     #endregion
 
     #region Recive
-    [MessageHandler((ushort)ServerToClientId.confirmname)]
+    [MessageHandler((ushort)NetworkMessages.confirmname)]
     public static void ConfirmName(ushort fromClientId, Message message)
     {
-        bool confirmation = message.GetBool();
+        Manager.confirmname = message.GetBool();
 
-        if (confirmation)
+        if (Manager.confirmname)
         {
             Instantiate(infopanel, GameObject.FindGameObjectWithTag("Canvas").transform);
         }
     }
 
-    [MessageHandler((ushort)ServerToClientId.newname)]
+    [MessageHandler((ushort)NetworkMessages.newname)]
     public static void NewName(ushort fromClientId, Message message)
     {
+        string[] playersName = message.GetStrings();
 
+        foreach (var val in playersName)
+        {
+            Debug.Log(val);
+        }
     }
     #endregion
 }

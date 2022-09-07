@@ -31,6 +31,7 @@ public class Room : MonoBehaviour
                 modeImage.sprite = modeLogos[0];
                 idText.text = $"ID: {roomId}";
                 Manager.onlineId = roomId;
+                //Manager.playersName[0] = Manager.charNames[Manager.numberCharac];
                 players[0].SetActive(true);
                 players[0].GetComponentsInChildren<Image>()[1].sprite = characters[Manager.numberCharac];
                 Instantiate(networks[0]);
@@ -46,16 +47,15 @@ public class Room : MonoBehaviour
 
     private void Start()
     {
+    }
+
+    private void Update()
+    {
         if (numberPlayers != Manager.list.Count)
         {
             numberPlayers = Manager.list.Count;
             players[numberPlayers].SetActive(true);
             players[numberPlayers].GetComponentsInChildren<Image>()[1].sprite = characters[Manager.numberCharac];
-        }
-    }
-
-    private void Update()
-    {
-        
+        }        
     }
 }

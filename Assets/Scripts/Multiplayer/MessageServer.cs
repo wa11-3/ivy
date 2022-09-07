@@ -9,8 +9,6 @@ public class MessageServer : MonoBehaviour
 {
     public static MessageServer current;
 
-    private static string[] charNames = { "FeAd", "FePe", "MaAd", "MaPe", "Robot", "Zombie" };
-
     private void Awake()
     {
         if (current != null && current != this)
@@ -25,26 +23,30 @@ public class MessageServer : MonoBehaviour
     #region Send
     public static void ConfirmName(ushort idClient, bool confirmation)
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)ServerToClientId.confirmname);
+        Message message = Message.Create(MessageSendMode.reliable, (ushort)NetworkMessages.confirmname);
         message.AddBool(confirmation);
         NetworkServer.Singleton.Server.Send(message, idClient);
     }
 
     public static void NewName()
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)ServerToClientId.newname);
-        message.AddStrings(Manager.list.Values.ToArray());
+        Message message = Message.Create(MessageSendMode.reliable, (ushort)NetworkMessages.newname);
+        string[] name = { Manager.charNames[Manager.numberCharac] };
+        string[] names = new string[6];
+        Array.Copy(name, names, 1);
+        Array.Copy(Manager.list.Values.ToArray(), 0, names, 1, Manager.list.Values.ToArray().Length);
+        message.AddStrings(names);
         NetworkServer.Singleton.Server.SendToAll(message);
     }
     #endregion
 
     #region Recive
-    [MessageHandler((ushort)ClientToServerId.name)]
+    [MessageHandler((ushort)NetworkMessages.name)]
     private static void Name(ushort fromClientId, Message message)
     {
         string name = message.GetString();
 
-        if (name == charNames[Manager.numberCharac] || Manager.list.ContainsValue(name))
+        if (name == Manager.charNames[Manager.numberCharac] || Manager.list.ContainsValue(name))
         {
             ConfirmName(fromClientId, false);
         }

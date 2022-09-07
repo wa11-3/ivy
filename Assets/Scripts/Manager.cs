@@ -3,11 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Text.RegularExpressions;
 
+public enum NetworkMessages : ushort
+{
+    name = 1,
+    confirmname = 2,
+    newname = 3
+}
+
 public class Manager : MonoBehaviour
 {
     public static Manager current;
 
     public static Dictionary<ushort, string> list = new Dictionary<ushort, string>();
+
+    public static bool confirmname = false;
+    //public static string[] playersName = new string[6];
+    public static string[] charNames = { "Emma", "Dona", "Bob", "Rick", "D2-J2", "Brain" };
 
     public static int numberCharac = 0;
 
