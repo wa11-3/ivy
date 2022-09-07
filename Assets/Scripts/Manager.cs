@@ -1,10 +1,13 @@
 using System.Net;
+using System.Collections.Generic;
 using UnityEngine;
 using System.Text.RegularExpressions;
 
 public class Manager : MonoBehaviour
 {
     public static Manager current;
+
+    public static Dictionary<ushort, string> list = new Dictionary<ushort, string>();
 
     public static int numberCharac = 0;
 

@@ -1,13 +1,13 @@
 using RiptideNetworking;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class MessageServer : MonoBehaviour
 {
     public static MessageServer current;
-
-    public static Dictionary<ushort, string> list = new Dictionary<ushort, string>();
 
     private static string[] charNames = { "FeAd", "FePe", "MaAd", "MaPe", "Robot", "Zombie" };
 
@@ -23,11 +23,18 @@ public class MessageServer : MonoBehaviour
     }
 
     #region Send
-    public static void ConfirmName()
+    public static void ConfirmName(ushort idClient, bool confirmation)
     {
         Message message = Message.Create();
-        message.AddString(charNames[Manager.numberCharac]);
-        //NetworkServer.Singleton.Server.Send(message, 0);
+        message.AddBool(confirmation);
+        NetworkServer.Singleton.Server.Send(message, idClient);
+    }
+
+    public static void NewName()
+    {
+        Message message = Message.Create();
+        message.AddStrings(Manager.list.Values.ToArray());
+        NetworkServer.Singleton.Server.SendToAll(message);
     }
     #endregion
 
@@ -37,15 +44,15 @@ public class MessageServer : MonoBehaviour
     {
         string name = message.GetString();
 
-        if (name != charNames[Manager.numberCharac] && Array.IndexOf(charNames, name) == -1)
+        if (name == charNames[Manager.numberCharac] || Manager.list.ContainsValue(name))
         {
-            Debug.Log("No Esta");
-            list.Add(fromClientId, name);
+            ConfirmName(fromClientId, false);
         }
         else
         {
-            ConfirmName();
-            Debug.Log("Esta");
+            ConfirmName(fromClientId, true);
+            Manager.list.Add(fromClientId, name);
+            NewName();
         }
     }
     #endregion
