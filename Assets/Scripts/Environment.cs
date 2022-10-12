@@ -1,8 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class Environment : MonoBehaviour
 {
+    public GameObject[] players;
     public GameObject[] enemies;
     public int typeEnemy;
     public float timeSpawn;
@@ -13,6 +15,8 @@ public class Environment : MonoBehaviour
 
     public Vector3 startPos;
 
+    public TextMeshProUGUI score;
+
     public float enviVelocity;
     public float middleFactor;
     public float backFactor;
@@ -21,6 +25,7 @@ public class Environment : MonoBehaviour
 
     private void Start()
     {
+        Instantiate(players[Manager.numberCharac]);
         StartCoroutine(InstatiateEnemies());
     }
 
@@ -40,6 +45,9 @@ public class Environment : MonoBehaviour
     void IncreaseVelocity()
     {
         Manager.enviVelocity += (Time.deltaTime * 0.00001f);
+        Manager.score += Time.deltaTime;
+        score.text = "Score: " + Manager.score.ToString("f0");
+        print(Manager.score);
     }
 
     IEnumerator InstatiateEnemies()

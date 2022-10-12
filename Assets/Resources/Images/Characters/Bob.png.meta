@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 938e3983786424d30ba50892b8e4e042
+guid: 3af0bebe1b45f4fdb8672ab42c625b23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -140,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: femaleAdventurer_0
+      name: maleAdventurer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 661b12e820c724bd6a1e83205bec7f29
-      internalID: -255083929
+      spriteID: 13fbfea405add4c059d5a54a89441176
+      internalID: -1600410956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_1
+      name: maleAdventurer_1
       rect:
         serializedVersion: 2
         x: 192
@@ -175,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c56b680f22208456c8bbb24c3d37b427
-      internalID: 1240598177
+      spriteID: c410b2909ac6c43ec82fe7e9e672659e
+      internalID: 470043191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_2
+      name: maleAdventurer_2
       rect:
         serializedVersion: 2
         x: 384
@@ -196,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b5e643f61fc413aa1d572bc21cac2f
-      internalID: 1034881776
+      spriteID: e6f021381ecd548d7a6066dc559a073a
+      internalID: 1626567273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_3
+      name: maleAdventurer_3
       rect:
         serializedVersion: 2
         x: 576
@@ -217,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d19ba4d0137c463cb64b9a7fa355fcc
-      internalID: -1847290222
+      spriteID: 816303c4f81b149c589b818608329ca6
+      internalID: -1352112266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_4
+      name: maleAdventurer_4
       rect:
         serializedVersion: 2
         x: 768
@@ -238,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa39b496e5dd94e1eb2c762deaa804df
-      internalID: 955278805
+      spriteID: 41254521e6b4d4664ab6d4012c617887
+      internalID: -743927092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_5
+      name: maleAdventurer_5
       rect:
         serializedVersion: 2
         x: 960
@@ -259,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5976165f5fb8448a89508ee380e408cb
-      internalID: 1802610580
+      spriteID: 393dc8f3ce67d4fb5995d633b4977643
+      internalID: -1874638967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_6
+      name: maleAdventurer_6
       rect:
         serializedVersion: 2
         x: 1152
@@ -280,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c234b62e2a9a64f93b4d71fa31a0aa16
-      internalID: 1448361378
+      spriteID: 1a82f62fdaf4440e6b60906ba1505743
+      internalID: 1693273892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_7
+      name: maleAdventurer_7
       rect:
         serializedVersion: 2
         x: 1344
@@ -301,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abb7e16ce2a634eefb480844c92a3e01
-      internalID: 952024811
+      spriteID: 764148c012fbb4ee585884faa5c78a19
+      internalID: -1145166415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_8
+      name: maleAdventurer_8
       rect:
         serializedVersion: 2
         x: 1536
@@ -322,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5478af5d1a0a146c6b1f7ee552fb5b5a
-      internalID: 232910011
+      spriteID: 948be27cad3164afdbcac432ed3d1094
+      internalID: -60299944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_9
+      name: maleAdventurer_9
       rect:
         serializedVersion: 2
         x: 0
@@ -343,14 +344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f971d9570624132bdb00f261efe1ad
-      internalID: -546575259
+      spriteID: 2cd64811cb92d41bdbe6ffc2aff096ef
+      internalID: 1630468109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_10
+      name: maleAdventurer_10
       rect:
         serializedVersion: 2
         x: 192
@@ -364,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4fef2b9187f0476f9eae7b86614447f
-      internalID: -1867031513
+      spriteID: 5ca0b5a891cc5402b9a6a49ff6d98181
+      internalID: 2134427432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_11
+      name: maleAdventurer_11
       rect:
         serializedVersion: 2
         x: 384
@@ -385,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8b2f754475754a1ea0f7b462999d4e7
-      internalID: -569016516
+      spriteID: 3b4016010a325485cbcab4d5f37dc373
+      internalID: 2033289524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_12
+      name: maleAdventurer_12
       rect:
         serializedVersion: 2
         x: 576
@@ -406,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7858e8fd599704f33891468df1085575
-      internalID: -303610130
+      spriteID: 5f330c154e8f54fe3b24d5b5d4fee043
+      internalID: -1640031241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_13
+      name: maleAdventurer_13
       rect:
         serializedVersion: 2
         x: 768
@@ -427,14 +428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91e90aefa974c43c7bb1686dcd1f64cd
-      internalID: 988895048
+      spriteID: 50866188c4b614bb887840ad41709e4b
+      internalID: 1433980729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_14
+      name: maleAdventurer_14
       rect:
         serializedVersion: 2
         x: 960
@@ -448,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 761921196f2c04bfb977b573804fa2d1
-      internalID: -335270590
+      spriteID: 69914bab70c6e448c856ca95cda76b2f
+      internalID: 1607987305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_15
+      name: maleAdventurer_15
       rect:
         serializedVersion: 2
         x: 1152
@@ -469,14 +470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2539cdc1fe6f4c3186c562ab0e6f93d
-      internalID: -1672885276
+      spriteID: 720551bd03cc449948a0cbaf1e1aeedc
+      internalID: 1179156782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_16
+      name: maleAdventurer_16
       rect:
         serializedVersion: 2
         x: 1344
@@ -490,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7c761ddde3e2481aa88a4b28ca75446
-      internalID: -841723522
+      spriteID: 113ce56526a894688ae8d7d38d80a229
+      internalID: -1671493881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_17
+      name: maleAdventurer_17
       rect:
         serializedVersion: 2
         x: 1536
@@ -511,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd56a15156b3c4e1c932d444e4151154
-      internalID: -966428392
+      spriteID: 9e5b87d1e837d48e297f4838b5daea56
+      internalID: 226380402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_18
+      name: maleAdventurer_18
       rect:
         serializedVersion: 2
         x: 0
@@ -532,14 +533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe685e0ef49a345f7809701d29c7d321
-      internalID: 1239585837
+      spriteID: be319ef94a03b4f15a69b8a6d0607ad8
+      internalID: -1238181521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_19
+      name: maleAdventurer_19
       rect:
         serializedVersion: 2
         x: 192
@@ -553,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1a7d2b2c287944c7b4e0ee4c42e8200
-      internalID: 91749703
+      spriteID: d66f4b7b612ac42a4b63518973f71523
+      internalID: -696425780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_20
+      name: maleAdventurer_20
       rect:
         serializedVersion: 2
         x: 384
@@ -574,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe564d822cb3647878f51de96f09a063
-      internalID: 563685140
+      spriteID: e15ed1fab34664e7591c3b442c22e875
+      internalID: -1451144994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_21
+      name: maleAdventurer_21
       rect:
         serializedVersion: 2
         x: 576
@@ -595,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9a427ec461374fef904dc970a5cd06d
-      internalID: -1772916467
+      spriteID: d0b27cb8928a244f39b5cd91e100078a
+      internalID: 702285801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_22
+      name: maleAdventurer_22
       rect:
         serializedVersion: 2
         x: 768
@@ -616,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa65c2e8725a4416f844bb95458dee34
-      internalID: 1032851051
+      spriteID: c7d6cf316f9c34af0bf6632bbea318b6
+      internalID: 1852937521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_23
+      name: maleAdventurer_23
       rect:
         serializedVersion: 2
         x: 960
@@ -637,14 +638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc5c54ba2b444307aa201447c1ff67e
-      internalID: -1037736605
+      spriteID: 58dfffd7a61554849a3bee162dbf7710
+      internalID: 641014684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_24
+      name: maleAdventurer_24
       rect:
         serializedVersion: 2
         x: 1152
@@ -658,14 +659,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5e61a2f0b65b46c083198275467aa83
-      internalID: 2094228407
+      spriteID: efc3f7873e69a48f89f6120303548c7d
+      internalID: 2009961013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_25
+      name: maleAdventurer_25
       rect:
         serializedVersion: 2
         x: 1344
@@ -679,14 +680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9734ab4ed17e941549edfb911f5f0948
-      internalID: 1187383725
+      spriteID: 0a8bdadb0cc3745018977094f2988556
+      internalID: -1899316286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_26
+      name: maleAdventurer_26
       rect:
         serializedVersion: 2
         x: 1536
@@ -700,14 +701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db2b83d7ca1a343fa8b5ac8dea6fa084
-      internalID: 1288641233
+      spriteID: 838aadff75dab45288015ad27e7a89b3
+      internalID: -654970968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_27
+      name: maleAdventurer_27
       rect:
         serializedVersion: 2
         x: 0
@@ -721,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10115b461db4d4086860af392e3fee58
-      internalID: -581503552
+      spriteID: 759a8874177774151adb3e73d9d6d756
+      internalID: -618991414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_28
+      name: maleAdventurer_28
       rect:
         serializedVersion: 2
         x: 192
@@ -742,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66af1fd40395f46df94a23174820b63b
-      internalID: 186942273
+      spriteID: 1968b26772f5c4c188103dd6f9fb6488
+      internalID: -1395091091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_29
+      name: maleAdventurer_29
       rect:
         serializedVersion: 2
         x: 384
@@ -763,14 +764,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b45910a3ee284721aed48b262ffc3e6
-      internalID: 1277230505
+      spriteID: 712fb14074d734c919351d08c4279483
+      internalID: -1600893627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_30
+      name: maleAdventurer_30
       rect:
         serializedVersion: 2
         x: 576
@@ -784,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cc963f9189114e9ea6705a8bfc16f95
-      internalID: 1289259900
+      spriteID: 4ddd86919ba194e1983e8d1524d2dfe6
+      internalID: 949898834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_31
+      name: maleAdventurer_31
       rect:
         serializedVersion: 2
         x: 768
@@ -805,14 +806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0febb331f1501479c891ffc9816d0e75
-      internalID: -260779973
+      spriteID: be1d6f26eae854b99b969ecdb514bfa5
+      internalID: -1958749121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_32
+      name: maleAdventurer_32
       rect:
         serializedVersion: 2
         x: 960
@@ -826,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08c58e05e71cf4237a93c9d980d6f48f
-      internalID: 1074873541
+      spriteID: 80664d0d11f7942a7824a14e66d3e787
+      internalID: -671864868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_33
+      name: maleAdventurer_33
       rect:
         serializedVersion: 2
         x: 1152
@@ -847,14 +848,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd68718fe943641ae9f978b83e628896
-      internalID: -1148617534
+      spriteID: 1e12a4b1885794315910cf4d00500d39
+      internalID: -874438492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_34
+      name: maleAdventurer_34
       rect:
         serializedVersion: 2
         x: 1344
@@ -868,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fa61394fb5249339e70e359f14db77
-      internalID: 1063811961
+      spriteID: 80431419841414fc99a469803de8be9c
+      internalID: -803069258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_35
+      name: maleAdventurer_35
       rect:
         serializedVersion: 2
         x: 1536
@@ -889,14 +890,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9de55164cf7d4248a3cbdb152607f9d
-      internalID: -381033233
+      spriteID: cab3218b1e5b1440783b9f5dcf519293
+      internalID: -121758630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_36
+      name: maleAdventurer_36
       rect:
         serializedVersion: 2
         x: 0
@@ -910,14 +911,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b52e1b7706c6453b914891f160f7317
-      internalID: 1411188331
+      spriteID: 2dfbf8d61f6534db7a82b4fde9f5bebe
+      internalID: 801354694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_37
+      name: maleAdventurer_37
       rect:
         serializedVersion: 2
         x: 192
@@ -931,14 +932,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b40fd1fe064bf4bc7814f18ddf754604
-      internalID: 1115879401
+      spriteID: e2baab11dc6a34737b03b48f0a18e435
+      internalID: -1116940696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_38
+      name: maleAdventurer_38
       rect:
         serializedVersion: 2
         x: 384
@@ -952,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6717c8dac66a646a999843b4a9d84a05
-      internalID: 1267001165
+      spriteID: cfad237a0c000485f9e8a8d460f008c3
+      internalID: -503351391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_39
+      name: maleAdventurer_39
       rect:
         serializedVersion: 2
         x: 576
@@ -973,14 +974,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60b9199462fc6499a88147053c8d1a6d
-      internalID: -489015271
+      spriteID: f765fbeeb2503464eab1c47bf9fccbc7
+      internalID: 1186062529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_40
+      name: maleAdventurer_40
       rect:
         serializedVersion: 2
         x: 768
@@ -994,14 +995,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab66fe8c4a6e4243a29d473f0d4d9ee
-      internalID: 1972748793
+      spriteID: 59bddfaf893d445809cb29ba884bf26b
+      internalID: 2119736489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_41
+      name: maleAdventurer_41
       rect:
         serializedVersion: 2
         x: 960
@@ -1015,14 +1016,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3feb3e3c07114dc793916439a2774c7
-      internalID: 1995828372
+      spriteID: db4eff1c9bcd94268b063a726695b9ed
+      internalID: -29472290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_42
+      name: maleAdventurer_42
       rect:
         serializedVersion: 2
         x: 1152
@@ -1036,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc2dd10bdfeee470d962bdf044478178
-      internalID: 659755316
+      spriteID: 4938b74c42dfe44a4bdc5bb8f29ba9ed
+      internalID: 462308523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_43
+      name: maleAdventurer_43
       rect:
         serializedVersion: 2
         x: 1344
@@ -1057,14 +1058,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe147e354bfce47e798cabfe52e1e328
-      internalID: 1074242089
+      spriteID: a076d687f989941bba357c71cc022de4
+      internalID: 367354086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: femaleAdventurer_44
+      name: maleAdventurer_44
       rect:
         serializedVersion: 2
         x: 1536
@@ -1078,8 +1079,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d5c713cb5614452aa5db6b1321f24fc
-      internalID: -156187401
+      spriteID: 6755af806f71c435bbaa0fa9f1dbc410
+      internalID: 1277655080
       vertices: []
       indices: 
       edges: []
@@ -1095,51 +1096,51 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      femaleAdventurer_12: -303610130
-      femaleAdventurer_42: 659755316
-      femaleAdventurer_6: 1448361378
-      femaleAdventurer_16: -841723522
-      femaleAdventurer_23: -1037736605
-      femaleAdventurer_1: 1240598177
-      femaleAdventurer_44: -156187401
-      femaleAdventurer_13: 988895048
-      femaleAdventurer_36: 1411188331
-      femaleAdventurer_34: 1063811961
-      femaleAdventurer_35: -381033233
-      femaleAdventurer_15: -1672885276
-      femaleAdventurer_26: 1288641233
-      femaleAdventurer_7: 952024811
-      femaleAdventurer_10: -1867031513
-      femaleAdventurer_20: 563685140
-      femaleAdventurer_32: 1074873541
-      femaleAdventurer_33: -1148617534
-      femaleAdventurer_28: 186942273
-      femaleAdventurer_29: 1277230505
-      femaleAdventurer_39: -489015271
-      femaleAdventurer_43: 1074242089
-      femaleAdventurer_5: 1802610580
-      femaleAdventurer_40: 1972748793
-      femaleAdventurer_4: 955278805
-      femaleAdventurer_25: 1187383725
-      femaleAdventurer_2: 1034881776
-      femaleAdventurer_31: -260779973
-      femaleAdventurer_24: 2094228407
-      femaleAdventurer_27: -581503552
-      femaleAdventurer_41: 1995828372
-      femaleAdventurer_11: -569016516
-      femaleAdventurer_17: -966428392
-      femaleAdventurer_14: -335270590
-      femaleAdventurer_22: 1032851051
-      femaleAdventurer_8: 232910011
-      femaleAdventurer_18: 1239585837
-      femaleAdventurer_9: -546575259
-      femaleAdventurer_37: 1115879401
-      femaleAdventurer_3: -1847290222
-      femaleAdventurer_30: 1289259900
-      femaleAdventurer_0: -255083929
-      femaleAdventurer_19: 91749703
-      femaleAdventurer_38: 1267001165
-      femaleAdventurer_21: -1772916467
+      maleAdventurer_20: -1451144994
+      maleAdventurer_34: -803069258
+      maleAdventurer_15: 1179156782
+      maleAdventurer_32: -671864868
+      maleAdventurer_5: -1874638967
+      maleAdventurer_30: 949898834
+      maleAdventurer_36: 801354694
+      maleAdventurer_4: -743927092
+      maleAdventurer_16: -1671493881
+      maleAdventurer_18: -1238181521
+      maleAdventurer_24: 2009961013
+      maleAdventurer_12: -1640031241
+      maleAdventurer_21: 702285801
+      maleAdventurer_26: -654970968
+      maleAdventurer_23: 641014684
+      maleAdventurer_29: -1600893627
+      maleAdventurer_31: -1958749121
+      maleAdventurer_14: 1607987305
+      maleAdventurer_38: -503351391
+      maleAdventurer_42: 462308523
+      maleAdventurer_41: -29472290
+      maleAdventurer_13: 1433980729
+      maleAdventurer_25: -1899316286
+      maleAdventurer_22: 1852937521
+      maleAdventurer_1: 470043191
+      maleAdventurer_10: 2134427432
+      maleAdventurer_7: -1145166415
+      maleAdventurer_17: 226380402
+      maleAdventurer_44: 1277655080
+      maleAdventurer_43: 367354086
+      maleAdventurer_8: -60299944
+      maleAdventurer_11: 2033289524
+      maleAdventurer_19: -696425780
+      maleAdventurer_28: -1395091091
+      maleAdventurer_2: 1626567273
+      maleAdventurer_40: 2119736489
+      maleAdventurer_27: -618991414
+      maleAdventurer_9: 1630468109
+      maleAdventurer_0: -1600410956
+      maleAdventurer_37: -1116940696
+      maleAdventurer_39: 1186062529
+      maleAdventurer_35: -121758630
+      maleAdventurer_6: 1693273892
+      maleAdventurer_3: -1352112266
+      maleAdventurer_33: -874438492
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

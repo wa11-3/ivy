@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: cb69c2004a9b74bf59c42dc89c177c38
+guid: 938e3983786424d30ba50892b8e4e042
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -140,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zombie_0
+      name: femaleAdventurer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3868105e8ec4570a0854a34979bb29
-      internalID: 1203980422
+      spriteID: 661b12e820c724bd6a1e83205bec7f29
+      internalID: -255083929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_1
+      name: femaleAdventurer_1
       rect:
         serializedVersion: 2
         x: 192
@@ -175,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b836010321a24476ab52b5525d4db949
-      internalID: -1433490254
+      spriteID: c56b680f22208456c8bbb24c3d37b427
+      internalID: 1240598177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_2
+      name: femaleAdventurer_2
       rect:
         serializedVersion: 2
         x: 384
@@ -196,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07fc07bc3fee84d42a74c2cabffeba2f
-      internalID: 644358906
+      spriteID: 51b5e643f61fc413aa1d572bc21cac2f
+      internalID: 1034881776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_3
+      name: femaleAdventurer_3
       rect:
         serializedVersion: 2
         x: 576
@@ -217,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7298a9d3d9cb1433a920202a9de12577
-      internalID: 1817841021
+      spriteID: 5d19ba4d0137c463cb64b9a7fa355fcc
+      internalID: -1847290222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_4
+      name: femaleAdventurer_4
       rect:
         serializedVersion: 2
         x: 768
@@ -238,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4e4ba582cf54ed7aaf9c38289b0c0c
-      internalID: 615816097
+      spriteID: fa39b496e5dd94e1eb2c762deaa804df
+      internalID: 955278805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_5
+      name: femaleAdventurer_5
       rect:
         serializedVersion: 2
         x: 960
@@ -259,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce643cb434ee4dedbb7e42ad2a6bcf6
-      internalID: 2059591924
+      spriteID: 5976165f5fb8448a89508ee380e408cb
+      internalID: 1802610580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_6
+      name: femaleAdventurer_6
       rect:
         serializedVersion: 2
         x: 1152
@@ -280,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbe5aea15f66d497295c5dadab655c94
-      internalID: 1560609521
+      spriteID: c234b62e2a9a64f93b4d71fa31a0aa16
+      internalID: 1448361378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_7
+      name: femaleAdventurer_7
       rect:
         serializedVersion: 2
         x: 1344
@@ -301,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f946bbd5549d6419cbb471aebc41e376
-      internalID: -1268230095
+      spriteID: abb7e16ce2a634eefb480844c92a3e01
+      internalID: 952024811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_8
+      name: femaleAdventurer_8
       rect:
         serializedVersion: 2
         x: 1536
@@ -322,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6897d70f9f08d4278871615df6fe69a7
-      internalID: 666233608
+      spriteID: 5478af5d1a0a146c6b1f7ee552fb5b5a
+      internalID: 232910011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_9
+      name: femaleAdventurer_9
       rect:
         serializedVersion: 2
         x: 0
@@ -343,14 +344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac24f09162da14d16879501ba074900d
-      internalID: 1908475744
+      spriteID: 48f971d9570624132bdb00f261efe1ad
+      internalID: -546575259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_10
+      name: femaleAdventurer_10
       rect:
         serializedVersion: 2
         x: 192
@@ -364,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2726ca8f7ad04a3f8757de4938ec043
-      internalID: 1106524714
+      spriteID: f4fef2b9187f0476f9eae7b86614447f
+      internalID: -1867031513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_11
+      name: femaleAdventurer_11
       rect:
         serializedVersion: 2
         x: 384
@@ -385,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3932078b55f9b46248c09de219a38a14
-      internalID: 507345975
+      spriteID: c8b2f754475754a1ea0f7b462999d4e7
+      internalID: -569016516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_12
+      name: femaleAdventurer_12
       rect:
         serializedVersion: 2
         x: 576
@@ -406,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2dbb829969ef4030aef89025b6e4c86
-      internalID: -284572734
+      spriteID: 7858e8fd599704f33891468df1085575
+      internalID: -303610130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_13
+      name: femaleAdventurer_13
       rect:
         serializedVersion: 2
         x: 768
@@ -427,14 +428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02297d5707e1641b283dbdba5536490a
-      internalID: 615073983
+      spriteID: 91e90aefa974c43c7bb1686dcd1f64cd
+      internalID: 988895048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_14
+      name: femaleAdventurer_14
       rect:
         serializedVersion: 2
         x: 960
@@ -448,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97b9255001d4246eb80baad47c28b06c
-      internalID: -1550093771
+      spriteID: 761921196f2c04bfb977b573804fa2d1
+      internalID: -335270590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_15
+      name: femaleAdventurer_15
       rect:
         serializedVersion: 2
         x: 1152
@@ -469,14 +470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a23e87c5983534ff3befea9e6c3d52ff
-      internalID: 1138482218
+      spriteID: f2539cdc1fe6f4c3186c562ab0e6f93d
+      internalID: -1672885276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_16
+      name: femaleAdventurer_16
       rect:
         serializedVersion: 2
         x: 1344
@@ -490,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce7a059897d0f4b789f65abad935510f
-      internalID: -875363560
+      spriteID: d7c761ddde3e2481aa88a4b28ca75446
+      internalID: -841723522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_17
+      name: femaleAdventurer_17
       rect:
         serializedVersion: 2
         x: 1536
@@ -511,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a15aaefb64c24531978967c5ac002db
-      internalID: 587927221
+      spriteID: bd56a15156b3c4e1c932d444e4151154
+      internalID: -966428392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_18
+      name: femaleAdventurer_18
       rect:
         serializedVersion: 2
         x: 0
@@ -532,14 +533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad3262656853b47e1b7bd2913a50495e
-      internalID: -1532332654
+      spriteID: fe685e0ef49a345f7809701d29c7d321
+      internalID: 1239585837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_19
+      name: femaleAdventurer_19
       rect:
         serializedVersion: 2
         x: 192
@@ -553,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e6e65e182d954c3293e99defe504476
-      internalID: 1800770213
+      spriteID: c1a7d2b2c287944c7b4e0ee4c42e8200
+      internalID: 91749703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_20
+      name: femaleAdventurer_20
       rect:
         serializedVersion: 2
         x: 384
@@ -574,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c841d451517e4afaac756e0c8a32571
-      internalID: 1069127082
+      spriteID: fe564d822cb3647878f51de96f09a063
+      internalID: 563685140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_21
+      name: femaleAdventurer_21
       rect:
         serializedVersion: 2
         x: 576
@@ -595,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26872e7b85a4a4f159118585c5a8e4fd
-      internalID: -198069697
+      spriteID: a9a427ec461374fef904dc970a5cd06d
+      internalID: -1772916467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_22
+      name: femaleAdventurer_22
       rect:
         serializedVersion: 2
         x: 768
@@ -616,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b5db546e2ba4607a875631ce50b7e7
-      internalID: 116863805
+      spriteID: fa65c2e8725a4416f844bb95458dee34
+      internalID: 1032851051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_23
+      name: femaleAdventurer_23
       rect:
         serializedVersion: 2
         x: 960
@@ -637,14 +638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7309a3ad50368462cab7b1d09cde44e7
-      internalID: -901052069
+      spriteID: 9cc5c54ba2b444307aa201447c1ff67e
+      internalID: -1037736605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_24
+      name: femaleAdventurer_24
       rect:
         serializedVersion: 2
         x: 1152
@@ -658,14 +659,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 136c78ba56def45929d196f4163d6d82
-      internalID: -1385236413
+      spriteID: a5e61a2f0b65b46c083198275467aa83
+      internalID: 2094228407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_25
+      name: femaleAdventurer_25
       rect:
         serializedVersion: 2
         x: 1344
@@ -679,14 +680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9afdced871f854624989a637ca01e373
-      internalID: 1830752666
+      spriteID: 9734ab4ed17e941549edfb911f5f0948
+      internalID: 1187383725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_26
+      name: femaleAdventurer_26
       rect:
         serializedVersion: 2
         x: 1536
@@ -700,14 +701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 013ef13dab4b0434a8b670430e81b8ae
-      internalID: -434985176
+      spriteID: db2b83d7ca1a343fa8b5ac8dea6fa084
+      internalID: 1288641233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_27
+      name: femaleAdventurer_27
       rect:
         serializedVersion: 2
         x: 0
@@ -721,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 866a779a1a4b44ee39e1504a51950916
-      internalID: -1025415141
+      spriteID: 10115b461db4d4086860af392e3fee58
+      internalID: -581503552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_28
+      name: femaleAdventurer_28
       rect:
         serializedVersion: 2
         x: 192
@@ -742,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc3284dcc0144456bb30e3cf0af8148
-      internalID: -1689629979
+      spriteID: 66af1fd40395f46df94a23174820b63b
+      internalID: 186942273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_29
+      name: femaleAdventurer_29
       rect:
         serializedVersion: 2
         x: 384
@@ -763,14 +764,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cabf430c829f4f52be0656fa9b02b85
-      internalID: -1195615386
+      spriteID: 5b45910a3ee284721aed48b262ffc3e6
+      internalID: 1277230505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_30
+      name: femaleAdventurer_30
       rect:
         serializedVersion: 2
         x: 576
@@ -784,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c4c0231a0604f5491c3adb0b4a0119
-      internalID: -2010914560
+      spriteID: 0cc963f9189114e9ea6705a8bfc16f95
+      internalID: 1289259900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_31
+      name: femaleAdventurer_31
       rect:
         serializedVersion: 2
         x: 768
@@ -805,14 +806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f34114999b0241b5bbab23d486853c0
-      internalID: 844570455
+      spriteID: 0febb331f1501479c891ffc9816d0e75
+      internalID: -260779973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_32
+      name: femaleAdventurer_32
       rect:
         serializedVersion: 2
         x: 960
@@ -826,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a64eb2b3189b14ce1bf2084b64504a28
-      internalID: 2076733816
+      spriteID: 08c58e05e71cf4237a93c9d980d6f48f
+      internalID: 1074873541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_33
+      name: femaleAdventurer_33
       rect:
         serializedVersion: 2
         x: 1152
@@ -847,14 +848,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70f564042f1cb4116b3e610ce35a4f03
-      internalID: 342162297
+      spriteID: dd68718fe943641ae9f978b83e628896
+      internalID: -1148617534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_34
+      name: femaleAdventurer_34
       rect:
         serializedVersion: 2
         x: 1344
@@ -868,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61cd669d23a054531863f2434b0e12de
-      internalID: 812956589
+      spriteID: 75fa61394fb5249339e70e359f14db77
+      internalID: 1063811961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_35
+      name: femaleAdventurer_35
       rect:
         serializedVersion: 2
         x: 1536
@@ -889,14 +890,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 939d42409f1ff45f88464d99587d5c10
-      internalID: -149682287
+      spriteID: e9de55164cf7d4248a3cbdb152607f9d
+      internalID: -381033233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_36
+      name: femaleAdventurer_36
       rect:
         serializedVersion: 2
         x: 0
@@ -910,14 +911,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8e622eafd5e47eb8c536e55dedd66e
-      internalID: -1583854104
+      spriteID: 2b52e1b7706c6453b914891f160f7317
+      internalID: 1411188331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_37
+      name: femaleAdventurer_37
       rect:
         serializedVersion: 2
         x: 192
@@ -931,14 +932,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9448a2a76d77748eb86657a9a2c640e8
-      internalID: 658749750
+      spriteID: b40fd1fe064bf4bc7814f18ddf754604
+      internalID: 1115879401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_38
+      name: femaleAdventurer_38
       rect:
         serializedVersion: 2
         x: 384
@@ -952,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ada4973efd94048f983a2cd3f120c9e4
-      internalID: 1762846719
+      spriteID: 6717c8dac66a646a999843b4a9d84a05
+      internalID: 1267001165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_39
+      name: femaleAdventurer_39
       rect:
         serializedVersion: 2
         x: 576
@@ -973,14 +974,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb8f6c0503574320a47634c90a20c0c
-      internalID: 15281123
+      spriteID: 60b9199462fc6499a88147053c8d1a6d
+      internalID: -489015271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_40
+      name: femaleAdventurer_40
       rect:
         serializedVersion: 2
         x: 768
@@ -994,14 +995,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00ea2c861575e4602978abeaf2b18394
-      internalID: 1073175404
+      spriteID: 1ab66fe8c4a6e4243a29d473f0d4d9ee
+      internalID: 1972748793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_41
+      name: femaleAdventurer_41
       rect:
         serializedVersion: 2
         x: 960
@@ -1015,14 +1016,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c515ddb4bb5a48089f4e01d82bebb09
-      internalID: -833479472
+      spriteID: a3feb3e3c07114dc793916439a2774c7
+      internalID: 1995828372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_42
+      name: femaleAdventurer_42
       rect:
         serializedVersion: 2
         x: 1152
@@ -1036,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f43b275af0a1b4e9583b27453de2b255
-      internalID: 1580409494
+      spriteID: cc2dd10bdfeee470d962bdf044478178
+      internalID: 659755316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_43
+      name: femaleAdventurer_43
       rect:
         serializedVersion: 2
         x: 1344
@@ -1057,14 +1058,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77585a23c09db4f5da783206158f8fe7
-      internalID: 1885799215
+      spriteID: fe147e354bfce47e798cabfe52e1e328
+      internalID: 1074242089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombie_44
+      name: femaleAdventurer_44
       rect:
         serializedVersion: 2
         x: 1536
@@ -1078,8 +1079,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73881531432b7426f8d98bc1b745eb96
-      internalID: 867714615
+      spriteID: 1d5c713cb5614452aa5db6b1321f24fc
+      internalID: -156187401
       vertices: []
       indices: 
       edges: []
@@ -1095,51 +1096,51 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      zombie_5: 2059591924
-      zombie_11: 507345975
-      zombie_25: 1830752666
-      zombie_39: 15281123
-      zombie_20: 1069127082
-      zombie_16: -875363560
-      zombie_1: -1433490254
-      zombie_44: 867714615
-      zombie_15: 1138482218
-      zombie_23: -901052069
-      zombie_24: -1385236413
-      zombie_38: 1762846719
-      zombie_14: -1550093771
-      zombie_37: 658749750
-      zombie_6: 1560609521
-      zombie_9: 1908475744
-      zombie_18: -1532332654
-      zombie_26: -434985176
-      zombie_35: -149682287
-      zombie_41: -833479472
-      zombie_10: 1106524714
-      zombie_19: 1800770213
-      zombie_3: 1817841021
-      zombie_21: -198069697
-      zombie_30: -2010914560
-      zombie_2: 644358906
-      zombie_17: 587927221
-      zombie_22: 116863805
-      zombie_31: 844570455
-      zombie_33: 342162297
-      zombie_8: 666233608
-      zombie_27: -1025415141
-      zombie_36: -1583854104
-      zombie_42: 1580409494
-      zombie_43: 1885799215
-      zombie_7: -1268230095
-      zombie_13: 615073983
-      zombie_32: 2076733816
-      zombie_28: -1689629979
-      zombie_12: -284572734
-      zombie_29: -1195615386
-      zombie_34: 812956589
-      zombie_0: 1203980422
-      zombie_4: 615816097
-      zombie_40: 1073175404
+      femaleAdventurer_12: -303610130
+      femaleAdventurer_42: 659755316
+      femaleAdventurer_6: 1448361378
+      femaleAdventurer_16: -841723522
+      femaleAdventurer_23: -1037736605
+      femaleAdventurer_1: 1240598177
+      femaleAdventurer_44: -156187401
+      femaleAdventurer_13: 988895048
+      femaleAdventurer_36: 1411188331
+      femaleAdventurer_34: 1063811961
+      femaleAdventurer_35: -381033233
+      femaleAdventurer_15: -1672885276
+      femaleAdventurer_26: 1288641233
+      femaleAdventurer_7: 952024811
+      femaleAdventurer_10: -1867031513
+      femaleAdventurer_20: 563685140
+      femaleAdventurer_32: 1074873541
+      femaleAdventurer_33: -1148617534
+      femaleAdventurer_28: 186942273
+      femaleAdventurer_29: 1277230505
+      femaleAdventurer_39: -489015271
+      femaleAdventurer_43: 1074242089
+      femaleAdventurer_5: 1802610580
+      femaleAdventurer_40: 1972748793
+      femaleAdventurer_4: 955278805
+      femaleAdventurer_25: 1187383725
+      femaleAdventurer_2: 1034881776
+      femaleAdventurer_31: -260779973
+      femaleAdventurer_24: 2094228407
+      femaleAdventurer_41: 1995828372
+      femaleAdventurer_27: -581503552
+      femaleAdventurer_11: -569016516
+      femaleAdventurer_14: -335270590
+      femaleAdventurer_17: -966428392
+      femaleAdventurer_22: 1032851051
+      femaleAdventurer_8: 232910011
+      femaleAdventurer_18: 1239585837
+      femaleAdventurer_9: -546575259
+      femaleAdventurer_37: 1115879401
+      femaleAdventurer_3: -1847290222
+      femaleAdventurer_30: 1289259900
+      femaleAdventurer_0: -255083929
+      femaleAdventurer_19: 91749703
+      femaleAdventurer_38: 1267001165
+      femaleAdventurer_21: -1772916467
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

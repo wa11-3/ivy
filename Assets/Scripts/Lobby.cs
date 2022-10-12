@@ -29,6 +29,7 @@ public class Lobby : MonoBehaviour
 
     private void Awake()
     {
+        Manager.ResetVariable();
         characterImage.sprite = characters[Manager.numberCharac];
     }
 

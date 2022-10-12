@@ -27,7 +27,8 @@ public class Manager : MonoBehaviour
     public static string onlineId = null;
     public static string onlineServer = null;
 
-    public static float enviVelocity = 0.001f;
+    public static float enviVelocity = 0.0015f;
+    public static float score = 0;
 
     private void Awake()
     {
@@ -72,4 +73,16 @@ public class Manager : MonoBehaviour
             return matches[0].Groups[1].Value;
         }
     }
+
+    public static void ResetVariable()
+    {
+        confirmname = false;
+        numberCharac = 0;
+        modeType = "SURVIVAL";
+        onlineType = null;
+        onlineId = null;
+        onlineServer = null;
+        enviVelocity = 0.0015f;
+        score = 0;
+}
 }

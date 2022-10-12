@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: e4e889e9103c54a68995da6a2f390a02
+guid: cb69c2004a9b74bf59c42dc89c177c38
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -140,7 +141,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robot_0
+      name: zombie_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 589161029e15e49c2b362a49b01f7d19
-      internalID: 922518521
+      spriteID: 3e3868105e8ec4570a0854a34979bb29
+      internalID: 1203980422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_1
+      name: zombie_1
       rect:
         serializedVersion: 2
         x: 192
@@ -175,14 +176,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff9fe7f9d8124c2a86764cae6949409
-      internalID: -1531564849
+      spriteID: b836010321a24476ab52b5525d4db949
+      internalID: -1433490254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_2
+      name: zombie_2
       rect:
         serializedVersion: 2
         x: 384
@@ -196,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7948e849bc4844b489945d06bef2397
-      internalID: -2146951112
+      spriteID: 07fc07bc3fee84d42a74c2cabffeba2f
+      internalID: 644358906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_3
+      name: zombie_3
       rect:
         serializedVersion: 2
         x: 576
@@ -217,14 +218,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df0c9dce2b8954321bddade88126fa92
-      internalID: -1008343202
+      spriteID: 7298a9d3d9cb1433a920202a9de12577
+      internalID: 1817841021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_4
+      name: zombie_4
       rect:
         serializedVersion: 2
         x: 768
@@ -238,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15be46c7a9cea45cc97686aea102bbbf
-      internalID: -227518719
+      spriteID: 0c4e4ba582cf54ed7aaf9c38289b0c0c
+      internalID: 615816097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_5
+      name: zombie_5
       rect:
         serializedVersion: 2
         x: 960
@@ -259,14 +260,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7858a7fc8d8ae427296dd4a5182759fb
-      internalID: -1386744528
+      spriteID: 4ce643cb434ee4dedbb7e42ad2a6bcf6
+      internalID: 2059591924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_6
+      name: zombie_6
       rect:
         serializedVersion: 2
         x: 1152
@@ -280,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6451af5e17d7f454a92cc6cdcbd17d48
-      internalID: 1691681769
+      spriteID: cbe5aea15f66d497295c5dadab655c94
+      internalID: 1560609521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_7
+      name: zombie_7
       rect:
         serializedVersion: 2
         x: 1344
@@ -301,14 +302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a69022ec0cfd4b669ca328de3f0eb65
-      internalID: -610158282
+      spriteID: f946bbd5549d6419cbb471aebc41e376
+      internalID: -1268230095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_8
+      name: zombie_8
       rect:
         serializedVersion: 2
         x: 1536
@@ -322,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e2ec0eb38c9e45f3a98ab7416605eaa
-      internalID: -1551999798
+      spriteID: 6897d70f9f08d4278871615df6fe69a7
+      internalID: 666233608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_9
+      name: zombie_9
       rect:
         serializedVersion: 2
         x: 0
@@ -343,14 +344,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cce9b37bc31ae4049acef6bcc7a9e41b
-      internalID: -1931057591
+      spriteID: ac24f09162da14d16879501ba074900d
+      internalID: 1908475744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_10
+      name: zombie_10
       rect:
         serializedVersion: 2
         x: 192
@@ -364,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb743df0f7e7c4f82b5cff72b7121795
-      internalID: 1775518256
+      spriteID: b2726ca8f7ad04a3f8757de4938ec043
+      internalID: 1106524714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_11
+      name: zombie_11
       rect:
         serializedVersion: 2
         x: 384
@@ -385,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd00ef649ac7e48e886bbfa4e57d9c0a
-      internalID: -1881112788
+      spriteID: 3932078b55f9b46248c09de219a38a14
+      internalID: 507345975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_12
+      name: zombie_12
       rect:
         serializedVersion: 2
         x: 576
@@ -406,14 +407,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e34f9d3ebf3ce48b1800372b6afab40f
-      internalID: -1279918978
+      spriteID: e2dbb829969ef4030aef89025b6e4c86
+      internalID: -284572734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_13
+      name: zombie_13
       rect:
         serializedVersion: 2
         x: 768
@@ -427,14 +428,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1dc0b5bb1d24d3e9dc793a79ace6e1
-      internalID: 1120462626
+      spriteID: 02297d5707e1641b283dbdba5536490a
+      internalID: 615073983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_14
+      name: zombie_14
       rect:
         serializedVersion: 2
         x: 960
@@ -448,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af72407309f9e43f3bb4ac7d41c4963c
-      internalID: -654793759
+      spriteID: 97b9255001d4246eb80baad47c28b06c
+      internalID: -1550093771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_15
+      name: zombie_15
       rect:
         serializedVersion: 2
         x: 1152
@@ -469,14 +470,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d256625bce02e4ca48a4a9cf1b5c9af3
-      internalID: -242792048
+      spriteID: a23e87c5983534ff3befea9e6c3d52ff
+      internalID: 1138482218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_16
+      name: zombie_16
       rect:
         serializedVersion: 2
         x: 1344
@@ -490,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08acd8044f5174e2aa08311ce35da675
-      internalID: -1346084408
+      spriteID: ce7a059897d0f4b789f65abad935510f
+      internalID: -875363560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_17
+      name: zombie_17
       rect:
         serializedVersion: 2
         x: 1536
@@ -511,14 +512,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d694e515d70e4f35b92e69754a22761
-      internalID: -1519213112
+      spriteID: 6a15aaefb64c24531978967c5ac002db
+      internalID: 587927221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_18
+      name: zombie_18
       rect:
         serializedVersion: 2
         x: 0
@@ -532,14 +533,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce091b46bf5904d18ad66a254f364598
-      internalID: -1007237469
+      spriteID: ad3262656853b47e1b7bd2913a50495e
+      internalID: -1532332654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_19
+      name: zombie_19
       rect:
         serializedVersion: 2
         x: 192
@@ -553,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f50ce5ea2b8b4b21a220d8e2c1e4211
-      internalID: 1402311002
+      spriteID: 8e6e65e182d954c3293e99defe504476
+      internalID: 1800770213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_20
+      name: zombie_20
       rect:
         serializedVersion: 2
         x: 384
@@ -574,14 +575,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46c7fe32a3f9b41cfbcbd2a14e1cef7e
-      internalID: 1224389041
+      spriteID: 9c841d451517e4afaac756e0c8a32571
+      internalID: 1069127082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_21
+      name: zombie_21
       rect:
         serializedVersion: 2
         x: 576
@@ -595,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25c970b269d67448791709ff575a482c
-      internalID: 1516801194
+      spriteID: 26872e7b85a4a4f159118585c5a8e4fd
+      internalID: -198069697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_22
+      name: zombie_22
       rect:
         serializedVersion: 2
         x: 768
@@ -616,14 +617,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e629fc7c34384806ab0dafb4e6b992e
-      internalID: -1411536799
+      spriteID: c4b5db546e2ba4607a875631ce50b7e7
+      internalID: 116863805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_23
+      name: zombie_23
       rect:
         serializedVersion: 2
         x: 960
@@ -637,14 +638,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec599254f752e47b0b7c36bd9a238689
-      internalID: -1226153304
+      spriteID: 7309a3ad50368462cab7b1d09cde44e7
+      internalID: -901052069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_24
+      name: zombie_24
       rect:
         serializedVersion: 2
         x: 1152
@@ -658,14 +659,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4aeafd06b004a039d32fae3de21a37
-      internalID: -269497139
+      spriteID: 136c78ba56def45929d196f4163d6d82
+      internalID: -1385236413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_25
+      name: zombie_25
       rect:
         serializedVersion: 2
         x: 1344
@@ -679,14 +680,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1470eb4b62f814d2fba0142ea54fcc8a
-      internalID: 132207818
+      spriteID: 9afdced871f854624989a637ca01e373
+      internalID: 1830752666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_26
+      name: zombie_26
       rect:
         serializedVersion: 2
         x: 1536
@@ -700,14 +701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f447d45fa6b7423caebdcb8a415db94
-      internalID: 1401185485
+      spriteID: 013ef13dab4b0434a8b670430e81b8ae
+      internalID: -434985176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_27
+      name: zombie_27
       rect:
         serializedVersion: 2
         x: 0
@@ -721,14 +722,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6338e0b3ccbe84a57808f2757f525960
-      internalID: -1670609506
+      spriteID: 866a779a1a4b44ee39e1504a51950916
+      internalID: -1025415141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_28
+      name: zombie_28
       rect:
         serializedVersion: 2
         x: 192
@@ -742,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7aa89a39157f42cc9124a8ff4746f5f
-      internalID: 370080739
+      spriteID: 8dc3284dcc0144456bb30e3cf0af8148
+      internalID: -1689629979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_29
+      name: zombie_29
       rect:
         serializedVersion: 2
         x: 384
@@ -763,14 +764,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e64a3ed1661496a80b129b1841ab9c
-      internalID: 331259189
+      spriteID: 2cabf430c829f4f52be0656fa9b02b85
+      internalID: -1195615386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_30
+      name: zombie_30
       rect:
         serializedVersion: 2
         x: 576
@@ -784,14 +785,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1ec3b85a51e04d7c9b1dc186d28b9e3
-      internalID: -945572925
+      spriteID: 96c4c0231a0604f5491c3adb0b4a0119
+      internalID: -2010914560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_31
+      name: zombie_31
       rect:
         serializedVersion: 2
         x: 768
@@ -805,14 +806,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfe47b6b2e62c4ab99d6bbe6a72eee5b
-      internalID: -2028806060
+      spriteID: 7f34114999b0241b5bbab23d486853c0
+      internalID: 844570455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_32
+      name: zombie_32
       rect:
         serializedVersion: 2
         x: 960
@@ -826,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d3922deb3654f34a53fed30f2640fb
-      internalID: 1077720047
+      spriteID: a64eb2b3189b14ce1bf2084b64504a28
+      internalID: 2076733816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_33
+      name: zombie_33
       rect:
         serializedVersion: 2
         x: 1152
@@ -847,14 +848,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c93908554f624d8c879619defe98566
-      internalID: -720449166
+      spriteID: 70f564042f1cb4116b3e610ce35a4f03
+      internalID: 342162297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_34
+      name: zombie_34
       rect:
         serializedVersion: 2
         x: 1344
@@ -868,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb461d803b0fb461c8026d3689e9cd24
-      internalID: -1334005244
+      spriteID: 61cd669d23a054531863f2434b0e12de
+      internalID: 812956589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_35
+      name: zombie_35
       rect:
         serializedVersion: 2
         x: 1536
@@ -889,14 +890,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c49a497ddaf141ddb7fe51133a88567
-      internalID: 2074952519
+      spriteID: 939d42409f1ff45f88464d99587d5c10
+      internalID: -149682287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_36
+      name: zombie_36
       rect:
         serializedVersion: 2
         x: 0
@@ -910,14 +911,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c02bf30ca4514c9dae74e82ff421d9a
-      internalID: 1033925704
+      spriteID: 8f8e622eafd5e47eb8c536e55dedd66e
+      internalID: -1583854104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_37
+      name: zombie_37
       rect:
         serializedVersion: 2
         x: 192
@@ -931,14 +932,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0004d98dd20245f1b3b52880b639f54
-      internalID: -100741151
+      spriteID: 9448a2a76d77748eb86657a9a2c640e8
+      internalID: 658749750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_38
+      name: zombie_38
       rect:
         serializedVersion: 2
         x: 384
@@ -952,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1a4b619f729c4eeba2e99ad08a409d9
-      internalID: -1414277716
+      spriteID: ada4973efd94048f983a2cd3f120c9e4
+      internalID: 1762846719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_39
+      name: zombie_39
       rect:
         serializedVersion: 2
         x: 576
@@ -973,14 +974,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa1dae1265607491fb1200df1568d59b
-      internalID: 1398956750
+      spriteID: bbb8f6c0503574320a47634c90a20c0c
+      internalID: 15281123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_40
+      name: zombie_40
       rect:
         serializedVersion: 2
         x: 768
@@ -994,14 +995,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e31b413e2ace486abc729df794cfabf
-      internalID: 874236216
+      spriteID: 00ea2c861575e4602978abeaf2b18394
+      internalID: 1073175404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_41
+      name: zombie_41
       rect:
         serializedVersion: 2
         x: 960
@@ -1015,14 +1016,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd9959895010748dbbd59593cbdf65cf
-      internalID: -740548361
+      spriteID: 4c515ddb4bb5a48089f4e01d82bebb09
+      internalID: -833479472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_42
+      name: zombie_42
       rect:
         serializedVersion: 2
         x: 1152
@@ -1036,14 +1037,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcc8a7abfdb7c44dfa5893f6d90f8b92
-      internalID: 227289530
+      spriteID: f43b275af0a1b4e9583b27453de2b255
+      internalID: 1580409494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_43
+      name: zombie_43
       rect:
         serializedVersion: 2
         x: 1344
@@ -1057,14 +1058,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f4fba8d508624cc6bc9e6cc593a3dac
-      internalID: 137587007
+      spriteID: 77585a23c09db4f5da783206158f8fe7
+      internalID: 1885799215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot_44
+      name: zombie_44
       rect:
         serializedVersion: 2
         x: 1536
@@ -1078,8 +1079,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59364c6b947b645d79d8b8a74a8db25c
-      internalID: -1858459129
+      spriteID: 73881531432b7426f8d98bc1b745eb96
+      internalID: 867714615
       vertices: []
       indices: 
       edges: []
@@ -1095,51 +1096,51 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      robot_32: 1077720047
-      robot_13: 1120462626
-      robot_44: -1858459129
-      robot_34: -1334005244
-      robot_10: 1775518256
-      robot_18: -1007237469
-      robot_23: -1226153304
-      robot_20: 1224389041
-      robot_16: -1346084408
-      robot_37: -100741151
-      robot_41: -740548361
-      robot_12: -1279918978
-      robot_3: -1008343202
-      robot_30: -945572925
-      robot_11: -1881112788
-      robot_0: 922518521
-      robot_28: 370080739
-      robot_39: 1398956750
-      robot_35: 2074952519
-      robot_26: 1401185485
-      robot_2: -2146951112
-      robot_1: -1531564849
-      robot_19: 1402311002
-      robot_24: -269497139
-      robot_43: 137587007
-      robot_40: 874236216
-      robot_27: -1670609506
-      robot_15: -242792048
-      robot_42: 227289530
-      robot_7: -610158282
-      robot_29: 331259189
-      robot_36: 1033925704
-      robot_9: -1931057591
-      robot_8: -1551999798
-      robot_4: -227518719
-      robot_14: -654793759
-      robot_17: -1519213112
-      robot_33: -720449166
-      robot_38: -1414277716
-      robot_25: 132207818
-      robot_5: -1386744528
-      robot_21: 1516801194
-      robot_31: -2028806060
-      robot_22: -1411536799
-      robot_6: 1691681769
+      zombie_5: 2059591924
+      zombie_11: 507345975
+      zombie_25: 1830752666
+      zombie_39: 15281123
+      zombie_20: 1069127082
+      zombie_16: -875363560
+      zombie_1: -1433490254
+      zombie_44: 867714615
+      zombie_15: 1138482218
+      zombie_23: -901052069
+      zombie_24: -1385236413
+      zombie_38: 1762846719
+      zombie_14: -1550093771
+      zombie_37: 658749750
+      zombie_6: 1560609521
+      zombie_9: 1908475744
+      zombie_18: -1532332654
+      zombie_26: -434985176
+      zombie_35: -149682287
+      zombie_41: -833479472
+      zombie_10: 1106524714
+      zombie_19: 1800770213
+      zombie_3: 1817841021
+      zombie_21: -198069697
+      zombie_30: -2010914560
+      zombie_2: 644358906
+      zombie_17: 587927221
+      zombie_22: 116863805
+      zombie_31: 844570455
+      zombie_33: 342162297
+      zombie_8: 666233608
+      zombie_27: -1025415141
+      zombie_36: -1583854104
+      zombie_42: 1580409494
+      zombie_43: 1885799215
+      zombie_7: -1268230095
+      zombie_13: 615073983
+      zombie_32: 2076733816
+      zombie_28: -1689629979
+      zombie_12: -284572734
+      zombie_29: -1195615386
+      zombie_34: 812956589
+      zombie_0: 1203980422
+      zombie_4: 615816097
+      zombie_40: 1073175404
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
