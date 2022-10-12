@@ -17,6 +17,7 @@ public class Lobby : MonoBehaviour
 
     public TextMeshProUGUI modeText;
     public TextMeshProUGUI idText;
+    public TextMeshProUGUI characterName;
 
     public TMP_InputField idInput;
 
@@ -31,6 +32,7 @@ public class Lobby : MonoBehaviour
     {
         Manager.ResetVariable();
         characterImage.sprite = characters[Manager.numberCharac];
+        characterName.text = Manager.charNames[Manager.numberCharac];
     }
 
     public void NextCharacter()
@@ -40,6 +42,7 @@ public class Lobby : MonoBehaviour
             Manager.numberCharac += 1;
         }
         characterImage.sprite = characters[Manager.numberCharac];
+        characterName.text = Manager.charNames[Manager.numberCharac];
     }
 
     public void PreviusCaharacter()
@@ -49,6 +52,7 @@ public class Lobby : MonoBehaviour
             Manager.numberCharac -= 1;
         }
         characterImage.sprite = characters[Manager.numberCharac];
+        characterName.text = Manager.charNames[Manager.numberCharac];
     }
 
     public void PressStart()

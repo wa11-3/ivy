@@ -77,7 +77,6 @@ public class Manager : MonoBehaviour
     public static void ResetVariable()
     {
         confirmname = false;
-        numberCharac = 0;
         modeType = "SURVIVAL";
         onlineType = null;
         onlineId = null;

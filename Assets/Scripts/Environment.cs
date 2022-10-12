@@ -47,7 +47,6 @@ public class Environment : MonoBehaviour
         Manager.enviVelocity += (Time.deltaTime * 0.00001f);
         Manager.score += Time.deltaTime;
         score.text = "Score: " + Manager.score.ToString("f0");
-        print(Manager.score);
     }
 
     IEnumerator InstatiateEnemies()
