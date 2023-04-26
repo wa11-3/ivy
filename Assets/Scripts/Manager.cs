@@ -27,7 +27,7 @@ public class Manager : MonoBehaviour
     public static string onlineId = null;
     public static string onlineServer = null;
 
-    public static float enviVelocity = 0.0015f;
+    public static float enviVelocity = 0.002f;
     public static float score = 0;
 
     private void Awake()
@@ -81,7 +81,7 @@ public class Manager : MonoBehaviour
         onlineType = null;
         onlineId = null;
         onlineServer = null;
-        enviVelocity = 0.0015f;
+        enviVelocity = 0.002f;
         score = 0;
 }
 }
